@@ -14,10 +14,6 @@ plugins:
 
 remote_theme: "mmistakes/minimal-mistakes"
 
-header:
-  overlay: false
-  show_nav: false
-
 markdown: kramdown
 highlighter: rouge
 
@@ -48,6 +44,8 @@ defaults:
       toc: true
       toc_label: "Contents"
       toc_icon: "list"
+      masthead:
+        show_nav: false
       sidebar:
         nav: "main"
 
@@ -57,5 +55,7 @@ defaults:
     values:
       layout: "single"
       author_profile: true
+      masthead:
+        show_nav: false
       sidebar:
         nav: "main"
