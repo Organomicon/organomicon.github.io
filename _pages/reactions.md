@@ -7,4 +7,4 @@ sidebar:
   nav: "main"
 ---
 
-https://organomicon.github.io/reactions/aldol-reaction/
+[Aldol Reaction](https://organomicon.github.io/reactions/aldol-reaction/)
