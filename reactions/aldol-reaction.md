@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Aldol Reaction"
+title: "The Aldol Reaction"
 permalink: /reactions/aldol-reaction/
 categories: [Carbonyl, Condensation]
 tags: [Aldol, Base-Catalyzed, Enolate]
