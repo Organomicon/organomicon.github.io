@@ -1,7 +1,5 @@
 ---
-layout: archive
+layout: posts
 title: "Blog"
 permalink: /blog/
 ---
-
-{% include archive.html %}
