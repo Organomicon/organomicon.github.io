@@ -25,6 +25,9 @@ include:
 paginate: 10
 paginate_path: "/page:num/"
 
+masthead:
+  show_nav: false
+
 # Collections
 collections:
   reactions:
