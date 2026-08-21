@@ -18,6 +18,9 @@ remote_theme: "mmistakes/minimal-mistakes"
 markdown: kramdown
 highlighter: rouge
 
+include:
+  - _pages
+
 # Pagination
 paginate: 10
 paginate_path: "/page:num/"
