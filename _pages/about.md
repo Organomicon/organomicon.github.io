@@ -13,3 +13,5 @@ The Organomicon is a curated collection of named organic reactions, mechanisms, 
 <p><strong>url:</strong> {{ site.url }}</p>
 <p><strong>baseurl:</strong> {{ site.baseurl }}</p>
 <p><strong>Full About URL:</strong> {{ site.url }}{{ site.baseurl }}/about/</p>
+
+<p><strong>Navigation loaded:</strong> {{ site.data.navigation | jsonify }}</p>
