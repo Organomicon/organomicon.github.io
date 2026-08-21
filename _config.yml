@@ -14,9 +14,14 @@ plugins:
 
 remote_theme: "mmistakes/minimal-mistakes"
 
+header:
+  overlay: false
+  show_nav: false
+
 markdown: kramdown
 highlighter: rouge
 
+# Pages
 include:
   - _pages
 
