@@ -7,3 +7,8 @@ main:
     url: /blog/
   - title: "Reactions"
     url: /reactions/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+

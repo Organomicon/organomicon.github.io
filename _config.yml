@@ -1,10 +1,11 @@
 title: "Organomicon"
 description: "The book of named organic reactions. Most of which are named after dead people."
 
-url: "https://organomicon.github.io/"
-baseurl: ""
+# Root-domain GitHub Pages settings
+url: "https://organomicon.github.io"
+baseurl: ""   # CRITICAL — root-domain sites MUST use empty baseurl
 
-# Theme
+# Theme + plugins
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
@@ -14,7 +15,6 @@ plugins:
 
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 
@@ -41,6 +41,8 @@ defaults:
       toc: true
       toc_label: "Contents"
       toc_icon: "list"
+      sidebar:
+        nav: "main"
 
   - scope:
       path: ""
@@ -48,14 +50,5 @@ defaults:
     values:
       layout: "single"
       author_profile: true
-
-# Navigation
-nav:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Reactions"
-    url: /reactions/
-  - title: "Blog"
-    url: /blog/
+      sidebar:
+        nav: "main"
