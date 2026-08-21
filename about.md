@@ -1,8 +1,8 @@
 ---
 layout: page
+theme: jekyll-theme-cayman
 title: "About"
 permalink: /about
-theme: jekyll-theme-cayman
 ---
 # Fill in some stuff here ...
 or here
