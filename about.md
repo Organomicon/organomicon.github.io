@@ -1,6 +1,5 @@
 ---
 layout: page
-theme: jekyll-theme-cayman
 title: "About"
 permalink: /about
 ---
