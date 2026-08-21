@@ -3,7 +3,7 @@ description: "The book of named organic reactions. Most of which are named after
 
 # Root-domain GitHub Pages settings
 url: "https://organomicon.github.io"
-baseurl: ""   # CRITICAL — root-domain sites MUST use empty baseurl
+baseurl: ""
 
 # Theme + plugins
 plugins:
