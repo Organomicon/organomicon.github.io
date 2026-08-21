@@ -2,7 +2,7 @@ title: "Organomicon"
 description: "The book of named organic reactions. Most of which are named after dead people."
 
 url: "https://organomicon.github.io/"
-baseurl: "/organomicon"
+baseurl: ""
 
 # Theme
 plugins:
