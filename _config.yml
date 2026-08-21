@@ -1,7 +1,59 @@
+title: "Organomicon"
+description: "The book of named organic reactions. Most of which are named after dead people."
+url: "" # your GitHub Pages URL if you want canonical links
+
+# Theme
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 
-title: Organomicon
-description: The book of named organic reactions. Most of which are named after dead people.
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Collections
+collections:
+  reactions:
+    output: true
+    permalink: /reactions/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      comments: false
+      toc: true
+      toc_label: "Contents"
+      toc_icon: "list"
+
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Reactions"
+    url: /reactions/
+  - title: "Blog"
+    url: /blog/
