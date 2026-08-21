@@ -3,7 +3,7 @@ layout: single
 title: "About"
 permalink: /about/
 sidebar:
-  nav: "nav"
+  nav: "main"
 ---
 
 # About Organomicon
