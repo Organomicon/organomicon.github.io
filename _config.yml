@@ -1,3 +1,7 @@
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: mmistakes/minimal-mistakes
+
 title: Organomicon
 description: The book of named organic reactions. Most of which are named after dead people.
